@@ -1,0 +1,1 @@
+pipenv run python manage.py test src/apps tests/ specs/

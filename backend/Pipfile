@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-rest-framework = "*"
+django-cors-headers = "*"
+django-jazzmin = "*"
+pillow = "*"
+pandas = "*"
+openpyxl = "*"
+django = "*"
+django-environ = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+sphinx = "*"
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.7"
